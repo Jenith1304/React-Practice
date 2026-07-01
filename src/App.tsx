@@ -16,6 +16,23 @@ import Practical14_MouseRenderProp from "./component/Practical14_MouseRenderProp
 import Practical15_WindowTracker from "./component/Practical15_WIndowTracker"
 import { CartProvider } from "./context/CartContext"
 import { Practical16CartDemo } from "./component/Practical16CartDemo"
+import Login from "./component/Practical17_Authentication"
+import { Practical18_Accordion } from "./component/Practical18_Accordion"
+import { Pr19_ErrorBoundary } from "./component/Pr19_ErrorBoundary"
+import ErrorBoundary from "./component/ErrorBoundary"
+import Tooltip from "./component/Pr20_ToolTip"
+import { Pagination } from "./component/Pagination"
+import Pr21_Toast from "./component/Pr21_Toast"
+import { Throttle } from "./component/Pr22_useThrottle"
+import { Optimistic } from "./component/Pr23_Optimistic"
+import Pr24_SyncExternalStore from "./component/Pr24_SyncExternalStore"
+import SyncExternalStore from "./component/Pr24_SyncExternalStore"
+import Pr25_ModalRenderProps from "./component/Pr25_ModalRenderProps"
+import { Pr26_HOC } from "./component/Pr26_HOC"
+import { AccordionDemo } from "./component/Pr27_AccordionCompound"
+import { UserListWithConfirmation } from "./utils/Practical15_withConfirmation"
+import { Practical16_usePagination } from "./utils/Practical16_usePagination"
+import CountDown from "./component/Practical29_CountDown"
 function App() {
   return (
     <>
@@ -37,9 +54,38 @@ function App() {
       {/* <Practical13_ErrorBoundary /> */}
       {/* <Practical14_MouseRenderProp /> */}
       {/* <Practical15_WindowTracker /> */}
-      <CartProvider>
+      {/* <CartProvider>
         <Practical16CartDemo />
-      </CartProvider>
+      </CartProvider> */}
+      {/* <Login /> */}
+      {/* <Practical18_Accordion /> */}
+      {/* <ErrorBoundary>
+        <Pr19_ErrorBoundary name="Jenith" />
+      </ErrorBoundary>
+      <ErrorBoundary>
+        <Pr19_ErrorBoundary name="Joker" />
+      </ErrorBoundary>
+      <ErrorBoundary>
+        <Pr19_ErrorBoundary name="Jenith" />
+      </ErrorBoundary> */}
+
+      {/* <div style={{ padding: "100px" }}>
+        <Tooltip text="Hello Tooltip">
+          <button>Hover Me</button>
+        </Tooltip>
+      </div> */}
+
+      {/* <Pagination/> */}
+      {/* <Pr21_Toast /> */}
+      {/* <Throttle/> */}
+      {/* <Optimistic /> */}
+      {/* <SyncExternalStore/> */}
+      {/* <Pr25_ModalRenderProps /> */}
+      {/* <Pr26_HOC /> */}
+      {/* <AccordionDemo /> */}
+      {/* <UserListWithConfirmation confirmAction={() => {console.log("Action confirmed!")}} /> */}
+      {/* <Practical16_usePagination /> */}
+      <CountDown />
     </>
   )
 }
