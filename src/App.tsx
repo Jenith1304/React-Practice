@@ -33,6 +33,9 @@ import { AccordionDemo } from "./component/Pr27_AccordionCompound"
 import { UserListWithConfirmation } from "./utils/Practical15_withConfirmation"
 import { Practical16_usePagination } from "./utils/Practical16_usePagination"
 import CountDown from "./component/Practical29_CountDown"
+import Practical31_PopOver from "./component/Practical31_PopOver(Vatsal)"
+import Practical32_Polling from "./component/Practical32_Polling"
+import Practical33_WIndowResizeObserver from "./component/Practical33_WIndowResizeObserver"
 function App() {
   return (
     <>
@@ -85,7 +88,11 @@ function App() {
       {/* <AccordionDemo /> */}
       {/* <UserListWithConfirmation confirmAction={() => {console.log("Action confirmed!")}} /> */}
       {/* <Practical16_usePagination /> */}
-      <CountDown />
+      {/* <CountDown /> */}
+
+      {/* <Practical31_PopOver /> */}
+      {/* <Practical32_Polling /> */}
+      <Practical33_WIndowResizeObserver />
     </>
   )
 }
