@@ -36,7 +36,24 @@ import CountDown from "./component/Practical29_CountDown"
 import Practical31_PopOver from "./component/Practical31_PopOver(Vatsal)"
 import Practical32_Polling from "./component/Practical32_Polling"
 import Practical33_WIndowResizeObserver from "./component/Practical33_WIndowResizeObserver"
+import Practical34_FormFieldHook from "./component/Practical34_FormFieldHook"
+import Practical35_CachedFetch from "./component/Practical35_CachedFetch"
+import Practical35_CachedFetch2 from "./component/Practical35_CachedFetch2"
+import { useState } from "react"
+import Practical36_useCLickOUtside from "./component/Practical36_useCLickOUtside"
+import Practical38_VideoPLayerHandle from "./component/Practical38_VideoPLayerHandle"
+import Practical39_ToastCompound from "./component/Practical39_ToastCompound"
+import Practical40_ErrorBoundary from "./component/Practical40_ErrorBoundary"
+import Practical41_EnhancedInput from "./component/Practical41_EnhancedInput"
+import Practical42_AccordionRenderProps from "./component/Practical42_AccordionRenderProps"
+import Practical43_withLoading from "./component/Practical43_withLoading"
+import Practical44_withBorder from "./component/Practical44_withBorder"
+import Practical45_DropDown from "./component/Practical45_DropDown"
+import Practical46_Modal from "./component/Practical46_Modal"
+import Practical47_DataTable from "./component/Practical47_DataTable"
+import Practical48_ToolTip from "./component/Practical48_ToolTip2.0"
 function App() {
+  const [isVisisble, setIsVisible] = useState(false)
   return (
     <>
 
@@ -92,7 +109,25 @@ function App() {
 
       {/* <Practical31_PopOver /> */}
       {/* <Practical32_Polling /> */}
-      <Practical33_WIndowResizeObserver />
+      {/* <Practical33_WIndowResizeObserver /> */}
+      {/* <Practical34_FormFieldHook /> */}
+
+      {/* 
+      <Practical35_CachedFetch />
+      <button onClick={() => setIsVisible((prev) => !prev)}>Shpw COmponetn2</button>
+      {isVisisble && <Practical35_CachedFetch2 />} */}
+      {/* <Practical36_useCLickOUtside /> */}
+      {/* <Practical38_VideoPLayerHandle/> */}
+      {/* <Practical39_ToastCompound /> */}
+      {/* <Practical40_ErrorBoundary /> */}
+      {/* <Practical41_EnhancedInput /> */}
+      {/* <Practical42_AccordionRenderProps /> */}
+      {/* <Practical43_withLoading /> */}
+      <Practical44_withBorder />
+      {/* <Practical45_DropDown /> */}
+      {/* <Practical46_Modal /> */}
+      {/* <Practical47_DataTable /> */}
+      {/* <Practical48_ToolTip /> */}
     </>
   )
 }
